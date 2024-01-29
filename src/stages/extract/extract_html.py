@@ -1,7 +1,7 @@
 from datetime import date
 from src.drivers.interfaces.http_requester import HttpRequesterInterface
 from src.drivers.interfaces.html_collector import HtmlCollectorInterface
-from src.stages.contracts.extarct_contract import ExtractContract
+from src.stages.contracts.extract_contract import ExtractContract
 from src.errors.extract_error import ExtractError
 
 class ExtractHtml:

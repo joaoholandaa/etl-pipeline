@@ -1,6 +1,6 @@
 from src.drivers.tests.http_requester import HttpRequesterSpy
 from src.drivers.tests.html_collector import HtmlCollectorSpy
-from src.stages.contracts.extarct_contract import ExtractContract
+from src.stages.contracts.extract_contract import ExtractContract
 from src.errors.extract_error import ExtractError
 
 from .extract_html import ExtractHtml
