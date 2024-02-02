@@ -54,9 +54,9 @@ class TransformRawData:
         
         if len(names) == 3:
             return{
-                "first_name": names[1],
+                "first_name": names[2],
                 "second_name": names[0],
-                "surname": None,
+                "surname": names[1],
                 "artist_id": link_splited[1],
                 "link": link
             }
